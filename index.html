@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="/img/icon.png">
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- Header -->
+        <div id="header">
+            <a class="header-logo" href="index.html">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="What do you want to listen to?">
+            </div>
+            <div class="header-control">
+                <a href="login.html" class="header-control-signup">Sign up</a>
+                <a href="login.html" class="header-control-login">Login</a>
+                <!-- <div class="header-control-logged">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="header-control-name">Dịp Tuấn</span>
+                    <ul>
+                        <li>Thông tin cá nhân</li>
+                        <li>Đăng xuất</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div id="content">
+            <div class="content-sidebar">
+                <div class="content-libary">
+                    <div class="content-libary-left">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>Your Libary</span>
+                    </div>
+                    <div class="content-libary-right">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="content-genre">
+                    <span>Artists</span>
+                </div>
+                <div class="content-recent">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="content-recent-right">
+                        <span>Recents</span>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+                <ul class="content-artist-list">
+                    <li class="content-artist-item">
+                        <img src="img/vu.jpg" alt="">
+                        <div class="content-artist-item-body">
+                            <p>Vũ</p>
+                            <span>Artist</span>
+                        </div>
+                    </li>
+                    <li class="content-artist-item">
+                        <img src="img/mtp.jpg" alt="">
+                        <div class="content-artist-item-body">
+                            <p>Sơn Tùng M-TP</p>
+                            <span>Artist</span>
+                        </div>
+                    </li>
+                    <li class="content-artist-item">
+                        <img src="img/rapviet.png" alt="">
+                        <div class="content-artist-item-body">
+                            <p>RAP VIỆT</p>
+                            <span>Artist</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-body">
+                <!-- <div class="content-about-us">
+                    <h2 class="about-us-title">Our Story</h2>
+                    <p class="about-us-name">Welcome to my Clone Spotify</p>
+                    <img class="about-us-img"
+                        src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/364774780_1733033167142017_4197371212770652663_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=6wjJVtI-e-cAX836gYC&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfC4i-OfOvubGlUe-tPEcPn9MvYkW3a3bnyMm_-c2oCldw&oe=64F9EAAA"
+                        alt="">
+                    <p class="about-us-desc">"Spotify là nền tảng âm nhạc vô cùng đa dạng và tương tác, mang đến cho
+                        hàng
+                        triệu người trên khắp
+                        thế giới những trải nghiệm âm nhạc độc đáo và cá nhân hóa. Với Spotify, bạn có thể dễ dàng khám
+                        phá
+                        và thưởng thức hàng triệu bài hát, album và danh sách phát từ mọi thể loại âm nhạc imaginable.
+                        Tính
+                        năng tìm kiếm thông minh của Spotify giúp bạn tìm thấy những bản nhạc mà bạn yêu thích hoặc khám
+                        phá
+                        những bài hát mới mẻ dựa trên sở thích của bạn.
+
+                        Như một cá nhân yêu âm nhạc đam mê, tôi đã tạo ra một trang cá nhân trên Spotify, giúp tôi tạo
+                        ra
+                        những danh sách phát cá nhân hóa dựa trên tâm trạng, hoạt động và sở thích của mình. Spotify
+                        cũng
+                        cung cấp tính năng 'Discover Weekly' và 'Release Radar', giúp tôi luôn cập nhật với những bản
+                        nhạc
+                        mới nhất từ các nghệ sĩ mà tôi yêu thích.
+
+                        Không chỉ thế, Spotify còn cho phép tôi chia sẻ âm nhạc yêu thích của mình với bạn bè thông qua
+                        tính
+                        năng chia sẻ danh sách phát và bài hát trên các mạng xã hội. Điều này giúp tôi kết nối với những
+                        người có cùng sở thích âm nhạc và tạo ra những trải nghiệm âm nhạc thú vị cùng nhau.
+
+                        Với Spotify, âm nhạc không chỉ là một phần cuộc sống của tôi mà còn là một cách để tôi thể hiện
+                        cá
+                        nhân và kết nối với cộng đồng âm nhạc rộng lớn. Tôi hy vọng rằng bạn cũng sẽ cảm thấy như vậy
+                        khi
+                        khám phá Spotify cùng chúng tôi."</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
