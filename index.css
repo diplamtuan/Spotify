@@ -290,7 +290,8 @@ body {
 /* Body */
 
 #content .content-body {
-    margin-left: 570px;
+    margin-left: 30%;
+    width: 70%;
 }
 
 #content .content-body .content-title {
@@ -477,7 +478,7 @@ body {
 }
 
 #content .content-search-top .content-top-result {
-    width: 35%;
+    width: 30%;
 }
 
 #content .content-search-top .content-top-result h3 {
@@ -568,7 +569,7 @@ body {
 }
 
 #content #content-wrap .content-artists-list li img {
-    width: 142px;
+    width: 80%;
     height: 142px;
     border-radius: 50%;
     object-fit: cover;
@@ -615,7 +616,7 @@ body {
 }
 
 #content #content-wrap .content-albums-list li img {
-    width: 142px;
+    width: 80%;
     height: 142px;
     display: block;
     margin: 10px auto;
@@ -738,7 +739,7 @@ body {
 
 #content .content-body .about-us-desc {
     text-align: justify;
-    padding: 0 300px;
+    padding: 0 150px;
     color: white;
     font-size: 16px;
     margin-top: 20px;
